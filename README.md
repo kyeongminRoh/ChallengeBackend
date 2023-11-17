@@ -11,7 +11,8 @@
 
 ### 회원가입 
 ####POST '/signup'
-body : name, password
+
+#####body : name, password
 
 /* 회원가입 성공 */
 res : status(201).json{(message : "회원가입이 완료되었습니다" )}
@@ -21,7 +22,8 @@ res.status(400).json{(message : "올바른 형식의 아이디와 비밀번호�
 
 ### 로그인
 ####POST '/signin'
-body : name, password
+
+#####body : name, password
 
 /* 로그인 성공 */
 res.status(201).json({message : "로그인에 성공하였습니다" )}
@@ -33,7 +35,7 @@ res.status(400).json({message : "아이디 혹은 비밀번호가 올바르지 �
 ### 예매
 #### POST '/reservation/:showId'
 
-params : showId
+#####params : showId
 
 /* 예매 성공 */
 res.status(201).json({message : `${shows.showId.name} 공연이 예매되었습니다` )}
