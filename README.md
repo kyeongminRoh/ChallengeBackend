@@ -10,9 +10,9 @@
 ## API 명세서
 
 ### 회원가입 
-####POST '/signup'
+#### POST '/signup'
 
-#####body : name, password
+##### body : name, password
 
 /* 회원가입 성공 */
 res : status(201).json{(message : "회원가입이 완료되었습니다" )}
@@ -21,9 +21,9 @@ res : status(201).json{(message : "회원가입이 완료되었습니다" )}
 res.status(400).json{(message : "올바른 형식의 아이디와 비밀번호를 입력해주세요")}
 
 ### 로그인
-####POST '/signin'
+#### POST '/signin'
 
-#####body : name, password
+##### body : name, password
 
 /* 로그인 성공 */
 res.status(201).json({message : "로그인에 성공하였습니다" )}
