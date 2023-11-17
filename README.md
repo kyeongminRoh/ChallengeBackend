@@ -36,7 +36,7 @@ res.status(400).json({message : "아이디 혹은 비밀번호가 올바르지 �
 params : showId
 
 /* 예매 성공 */
-res.status(201).json({message : `${shows.showId.name} 공연이 예매되었습니다 ` )}
+res.status(201).json({message : `${shows.showId.name} 공연이 예매되었습니다` )}
 
 /* 예매 실패 */
 res.status(401).json({message : "매진된 공연입니다"})
