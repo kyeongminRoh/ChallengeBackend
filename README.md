@@ -33,8 +33,13 @@ res.status(201).json({message : "로그인에 성공하였습니다" )}
 res.status(404).json({message : "등록되지 않은 유저입니다" )}
 res.status(400).json({message : "아이디 혹은 비밀번호가 올바르지 않습니다" )}
 
+### 공연 전체 조회
+#### GET '/shows'
+
+res.status(200).json({ data : shows })
+
 ### 공연 상세 조회
-#### GET '/show/:showId'
+#### GET '/shows/:showId'
 
 res.status(200).json({ data : show })
 
