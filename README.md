@@ -4,7 +4,8 @@
 # 팀원 : 정윤영, 유재현
 
 ## ERD
-![drawSQL-challenge1-export-2023-11-17](https://github.com/kyeongminRoh/ChallengeBackend/assets/140397466/27717934-389d-4e20-ba73-6f76415718f6)
+![drawSQL-challenge1-export-2023-11-17](https://github.com/kyeongminRoh/ChallengeBackend/assets/140397466/33a4a801-edf7-41ae-a62b-92b388fdf4d7)
+
 
 ## API 명세서
 
